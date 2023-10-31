@@ -27,7 +27,7 @@ all_posts = [
     {
         "slug": "programming-is-fun",
         "image": "coding.jpg",
-        "author": "Ambrish",
+        "author": "c",
         "date": date(2023, 3, 10),
         "title": "Programming Is Great!",
         "excerpt": "Did you ever spend hours searching that one error in your code? Yep - that's what happened to me yesterday...",
