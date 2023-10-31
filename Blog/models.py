@@ -14,7 +14,7 @@ class Author(models.Model):
 
 
 
-class Post(models.Models):
+class Post(models.Model):
     title = models.CharField(max_length=150)
     excerpt = models.CharField(max_length=200)
     image_name = models.CharField(max_length=100)
