@@ -18,7 +18,7 @@
     {% endfor %}
   </div>
   <article>
-    <img src="{{post.image.url}}" alt="{{ post.title }}" />
+    <img src="{{ post.image.url }}" alt="{{ post.title }}" />
     <address>By <a href="mailto:{{ post.author.email_address }}">{{ post.author }}</a></address>
     <div>Last updated on <time>{{ post.date|date:"d M Y" }}</time></div>
   </article>
@@ -27,4 +27,11 @@
 <main>
   {{ post.content|linebreaks }}
 </main>
+
+<div>
+  <form>
+    {{ comment_form }}
+    <button>Save Comment</button>
+  </form>
+</div>
 {% endblock %}
