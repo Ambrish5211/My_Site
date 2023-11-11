@@ -35,7 +35,7 @@ ALLOWED_HOSTS = os.environ.get("ALLOWED_HOST").split(" ")
 # Application definition
 
 INSTALLED_APPS = [
-    'blog',
+    'Blog',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
