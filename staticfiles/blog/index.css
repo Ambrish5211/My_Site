@@ -63,6 +63,7 @@
   padding: 3rem;
   background-color: #3d3d3d;
   margin-top: 5rem;
+  color: white;
 }
 
 #about h2 {
@@ -71,7 +72,7 @@
 
 #about p {
   font-size: 1.5rem;
-  color: #353535;
+  color: white;
 }
 
 
